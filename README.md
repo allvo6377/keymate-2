@@ -4,7 +4,7 @@ A virtual keyboard with cool effects and key functionalities.
 
 ## Keyboard for _Windows_
 
-Developed with **HTML**, **CSS**, and **JS** without any dependencies.
+Developed with **HTML**, **CSS**, and **JS** without any dependencies. Without any framework
 
 ## To-do list
 
