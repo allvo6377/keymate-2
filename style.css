@@ -5,7 +5,19 @@
   src: url('assets/fonts/VisbyRoundCF-Bold.woff');
 }
 
-@
+@font-face {
+  font-family: 'vr-m';
+  src: url('assets/fonts/VisbyRoundCF-Medium.woff');
+}
+
+:root {
+  --keyboard-bg-color: #00c3b3;
+  --key-bg-color: #353535;
+  --key-color: #fdf6ff;
+  --lock-on-color: #00ae94;
+  --font-b: 'vr-b', sans-serif;
+  --font-m: 'vr-m', sans-serif;
+}
 
 /* Track */
 ::-webkit-scrollbar {
