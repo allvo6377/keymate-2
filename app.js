@@ -30,9 +30,7 @@ function toggleLockClass(element, name) {
     trackEvent(`Active/Deactivate ${name} key`, 'Lock keys', `${name}-key-click`, 5);
 };
 
-// toggle function for caps, num, and scroll lock keys
-function toggleKey(code) {
-    var el;
+// 
     // detect el based on keyCode
     switch (code) {
         case '20':
