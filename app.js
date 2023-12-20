@@ -8,8 +8,7 @@ let keys = document.querySelectorAll('kbd');
 // audio 
 let keyAudio = document.getElementById('keyAudio');
 
-// theme buttons
-let buttons = document.querySelectorAll('button');
+/
 
 // learn more
 let info = document.getElementById('info');
