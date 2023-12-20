@@ -58,16 +58,6 @@ function toggleKey(code) {
     }
 };
 
-// on screen keyboard keypress event
-function keyPress(e) {
-    let keyAttribute = e.target.dataset.key;
-    if (e.target.localName === 'i' || e.target.localName === 'span') {
-        // get data-key of kbd which is a parent of <i>
-        keyAttribute = e.target.parentNode.dataset.key;
-    }
-    toggleKey(keyAttribute);
-    trackEvent(`Pressed ${e.target.innerText} key`, 'Virtual Keyboard', `${e.target.innerText}-key-click`, 3);
-};
 
 // virtual keyboard key event
 keys.forEach(key => key.addEventListener('click', keyPress));
