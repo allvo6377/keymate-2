@@ -371,6 +371,9 @@ i.underscore {
 /* footer */
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
   background: linear-gradient(270deg, #f36b38, #f2354d);
   background-size: 100% 100%;
@@ -380,7 +383,21 @@ i.underscore {
   margin: 2rem 0 0 0;
   padding: 0;
   font-family: var(--font-b);
+  position: relative;
 }
+
+.footer-logo img {
+  width: auto;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.footer-content {
+  flex-grow: 1;
+  text-align: center;
+}
+
+
 
 .tech-love {
   text-align: center;
