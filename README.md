@@ -1,6 +1,6 @@
 # About
 
-A virtual keyboard with cool effects and key functionalities.
+A virtual keyboard with additional cool effects and key functionalities.
 
 ## Keyboard for _Windows_
 
