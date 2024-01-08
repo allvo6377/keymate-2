@@ -112,7 +112,7 @@ function hideCustomTheme() {
 }
 
 defaultElement.addEventListener('click', function() {
-    applyTheme('#00c3b3', '#353535', '#f8f8f8', '#00AE94', 'default');
+    applyTheme('#ffb3ba', '#353535', '#f8f8f8', '#00AE94', 'default');
     hideCustomTheme();
 });
 themeOneElement.addEventListener('click', function() {
@@ -124,7 +124,7 @@ themeTwoElement.addEventListener('click', function() {
     hideCustomTheme();
 });
 themeThreeElement.addEventListener('click', function() {
-    applyTheme('#D5BCA2', '#353535', '#f5f5f5', '#A46F5E', 'rose-gold');
+    applyTheme('#d896ff', '#353535', '#f5f5f5', '#A46F5E', 'purple');
     hideCustomTheme();
 });
 
