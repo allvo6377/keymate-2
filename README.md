@@ -1,15 +1,22 @@
 # About
 
-A virtual keyboard with cool effects and key functionalities.
-
-## Keyboard for _Windows_
-
+# My Project
+My project is about a virtual keyboard with additional cool effects and key functionalities.
 Developed with **HTML**, **CSS**, and **JS** without any dependencies. Without any framework
 
-## To-do list
+## Overview
+This project aims to create a virtual keyboard for Windows with additional cool effects and key functionalities.
 
-- _Keyboard for Macintosh_
-- _Custom music for any key_
-- _Custom key functions_
-- _Mobile Keyboard_
+## Features
+- Cool effects
+- Key functionalities
+- Custom themes
+- Dark mode
 
+## Installation
+To install the virtual keyboard, follow these steps:
+1. Clone the repository.
+2. Open the index.html file in your web browser.
+
+## Usage
+To use the virtual keyboard, simply open the index.html file in your web browser.

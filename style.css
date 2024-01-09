@@ -1,4 +1,4 @@
-/* colors &fonts*/
+/*this code is for colors &fonts*/
 
 @font-face {
   font-family: 'vr-b';
@@ -11,7 +11,7 @@
 }
 
 :root {
-  --keyboard-bg-color: #00c3b3;
+  --keyboard-bg-color: #ffb3ba;
   --key-bg-color: #353535;
   --key-color: #fdf6ff;
   --lock-on-color: #00ae94;
@@ -371,16 +371,33 @@ i.underscore {
 /* footer */
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   text-align: center;
-  background: linear-gradient(270deg, #f36b38, #f2354d);
+  background: linear-gradient(270deg, #0072ff, #00c6ff);
   background-size: 100% 100%;
   -webkit-animation: gradientFill 8s ease infinite;
   -moz-animation: gradientFill 8s ease infinite;
   animation: gradientFill 8s ease infinite;
-  margin: 2rem 0 0 ;
+  margin: 2rem 0 0 0;
   padding: 0;
   font-family: var(--font-b);
+  position: relative;
 }
+
+.footer-logo img {
+  width: auto;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.footer-content {
+  flex-grow: 1;
+  text-align: center;
+}
+
+
 
 .tech-love {
   text-align: center;
