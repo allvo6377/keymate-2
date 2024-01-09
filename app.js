@@ -31,6 +31,10 @@ function toggleLockClass(element, name) {
 };
 
 // toggle function for caps, num, and scroll lock keys
+/**
+ * Toggles the state of a key based on the provided code.
+ * @param {string} code - The code of the key.
+ */
 function toggleKey(code) {
     var el;
     // detect el based on keyCode
